@@ -253,7 +253,6 @@ dlz.f \
 dmatrix.f \
 dqag.f \
 drfftf.f \
-dsort.f \
 dsptrf.f \
 dsptri.f \
 dualshape3tri.f \
@@ -458,9 +457,7 @@ inviscidpre.f \
 islavactive.f \
 isortic.f \
 isortiddc.f \
-isortid.f \
 isorti.f \
-isortii.f \
 isortiiddc.f \
 isortiid.f \
 isortiii.f \
@@ -1166,4 +1163,5 @@ writeheading.c \
 writenewmesh.c \
 writeoldmesh.c
 
-SCCXCXX = umat_dl.cpp
+SCCXCXX = umat_dl.cpp \
+ccx_simd_sort.cpp
