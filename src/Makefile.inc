@@ -991,6 +991,7 @@ CalculiXstep.c \
 call_external_umat.c \
 call_external_umat_user.c \
 cascade.c \
+ccx_radix_sort.c \
 checkconvergence.c \
 checkconvnet.c \
 checkdivergence.c \
@@ -1163,5 +1164,4 @@ writeheading.c \
 writenewmesh.c \
 writeoldmesh.c
 
-SCCXCXX = umat_dl.cpp \
-ccx_simd_sort.cpp
+SCCXCXX = umat_dl.cpp

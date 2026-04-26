@@ -37,9 +37,6 @@ C>
 !
 !     moves a file on disk
 !
-#if defined(__INTEL_COMPILER)
-      use ifport, only: rename
-#endif
 !
       implicit none
 !
